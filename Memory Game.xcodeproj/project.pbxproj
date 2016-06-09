@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F546516D1D0254F300722A58 /* scoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546516C1D0254F300722A58 /* scoreController.swift */; };
+		F546516F1D02567000722A58 /* playerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546516E1D02567000722A58 /* playerCell.swift */; };
+		F54651711D0257C900722A58 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54651701D0257C900722A58 /* Player.swift */; };
+		F54651731D0264C400722A58 /* detailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54651721D0264C400722A58 /* detailsController.swift */; };
+		F56F61441D0310E1008431C3 /* LobbyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F61431D0310E1008431C3 /* LobbyController.swift */; };
+		F5D2D03D1D06233200D36477 /* addImagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2D03C1D06233200D36477 /* addImagesController.swift */; };
+		F5F2473C1D09C37800DC15F0 /* funcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2473B1D09C37800DC15F0 /* funcController.swift */; };
 		FA6275ED1C9DBBB10029803A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6275EC1C9DBBB10029803A /* AppDelegate.swift */; };
 		FA6275EF1C9DBBB10029803A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6275EE1C9DBBB10029803A /* ViewController.swift */; };
 		FA6275F21C9DBBB10029803A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6275F01C9DBBB10029803A /* Main.storyboard */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F546516C1D0254F300722A58 /* scoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scoreController.swift; sourceTree = "<group>"; };
+		F546516E1D02567000722A58 /* playerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerCell.swift; sourceTree = "<group>"; };
+		F54651701D0257C900722A58 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F54651721D0264C400722A58 /* detailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailsController.swift; sourceTree = "<group>"; };
+		F56F61431D0310E1008431C3 /* LobbyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LobbyController.swift; sourceTree = "<group>"; };
+		F5D2D03C1D06233200D36477 /* addImagesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addImagesController.swift; sourceTree = "<group>"; };
+		F5F2473B1D09C37800DC15F0 /* funcController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = funcController.swift; sourceTree = "<group>"; };
 		FA6275E91C9DBBB00029803A /* Memory Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6275EC1C9DBBB10029803A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA6275EE1C9DBBB10029803A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +70,14 @@
 			children = (
 				FA6275EC1C9DBBB10029803A /* AppDelegate.swift */,
 				FA6275EE1C9DBBB10029803A /* ViewController.swift */,
+				F54651721D0264C400722A58 /* detailsController.swift */,
+				F546516C1D0254F300722A58 /* scoreController.swift */,
+				F5F2473B1D09C37800DC15F0 /* funcController.swift */,
+				F546516E1D02567000722A58 /* playerCell.swift */,
 				FA6275F01C9DBBB10029803A /* Main.storyboard */,
+				F5D2D03C1D06233200D36477 /* addImagesController.swift */,
+				F56F61431D0310E1008431C3 /* LobbyController.swift */,
+				F54651701D0257C900722A58 /* Player.swift */,
 				FA6275F31C9DBBB10029803A /* Assets.xcassets */,
 				FA6275F51C9DBBB10029803A /* LaunchScreen.storyboard */,
 				FA6275F81C9DBBB10029803A /* Info.plist */,
@@ -96,6 +117,7 @@
 				TargetAttributes = {
 					FA6275E81C9DBBB00029803A = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5XZXX92537;
 					};
 				};
 			};
@@ -135,8 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54651731D0264C400722A58 /* detailsController.swift in Sources */,
+				F546516F1D02567000722A58 /* playerCell.swift in Sources */,
+				F5F2473C1D09C37800DC15F0 /* funcController.swift in Sources */,
 				FA6275EF1C9DBBB10029803A /* ViewController.swift in Sources */,
 				FA6275ED1C9DBBB10029803A /* AppDelegate.swift in Sources */,
+				F54651711D0257C900722A58 /* Player.swift in Sources */,
+				F546516D1D0254F300722A58 /* scoreController.swift in Sources */,
+				F56F61441D0310E1008431C3 /* LobbyController.swift in Sources */,
+				F5D2D03D1D06233200D36477 /* addImagesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +276,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Memory Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Memory-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +290,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Memory Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Memory-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +319,7 @@
 				FA6275FD1C9DBBB10029803A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

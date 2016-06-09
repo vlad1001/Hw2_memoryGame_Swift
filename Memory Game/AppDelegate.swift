@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Memory Game
-//
-//  Created by Mac Pro on 19/03/2016.
-//  Copyright © 2016 MacPro. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
